@@ -30,7 +30,11 @@ class Editor:
         self.textarea.configure(yscrollcommand=self.scroll.set)
 
 
-
+"""
+In Python, pydoc as well as unit tests require modules to be importable.
+Your code should always check if __name__ == '__main__' before executing
+your main program so that the main program is not executed when the module is imported.
+"""
 if __name__ == "__main__":
     """
     Runs main loop of the program
