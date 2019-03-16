@@ -1,5 +1,5 @@
 # tkinter-text-editor
-A text editor in Python 3.6+ built with Tkinter by folowing the tutorial by pymike00 on youtube.
+A text editor in Python 3.6+ built with Tkinter by following the tutorial by pymike00 on youtube.
 
 ## Dependencies
 
@@ -11,3 +11,4 @@ Tkinter (for ubuntu, sudo apt install python3-tk)
 ```bash
 python3 editor.py
 ```
+
